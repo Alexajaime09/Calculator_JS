@@ -1,0 +1,75 @@
+*{
+    font-family: "Sarabun", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.calculadora{
+    background: linear-gradient(45deg, rgb(20, 69, 147), rgb(66, 135, 247) );
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 0;
+    background: rgb(250, 251, 253);
+    box-shadow:  inset 2px 2px 2px -1px rgba(53, 49, 49, 0.7), inset -2px -2px 2px -1px rgba(240, 240, 240, 0.4);
+}
+
+p{
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 3px 14px;
+    margin-right: 3px;
+    cursor: pointer;
+    background: rgb(20, 69, 147);
+    box-shadow: 10px 10px 10px -1px rgba(24, 48, 208, 0.16),
+                -2px -2px 2px -1px rgba(57, 146, 240, 0.7);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+
+.display{
+    margin-top: 10px;
+    width: 90%;
+    background: rgb(250, 251, 253);
+    box-shadow:  inset 2px 2px 2px -1px rgba(53, 49, 49, 0.7), inset -2px -2px 2px -1px rgba(240, 240, 240, 0.4);
+    border-radius: 5px ;
+    padding: 5px;
+
+}
